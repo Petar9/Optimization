@@ -1,0 +1,49 @@
+{
+  "experiment_info": {
+    "optimizer": "random",
+    "strategy": "RSITrend200EMA",
+    "symbol": "BTC-USDT",
+    "training_period": "2025-01-01 to 2025-06-30",
+    "testing_period": "2025-07-01 to 2025-09-30",
+    "total_trials": 200,
+    "duration_minutes": 0.0,
+    "avg_trial_duration_sec": 0.0
+  },
+  "convergence": {
+    "best_sharpe": 0.170112,
+    "trial_reached_best": 9,
+    "trials_to_90pct": 9,
+    "best_trial_id": 13714
+  },
+  "fitness_scores": {
+    "mean": 0.011855,
+    "median": 0.0001,
+    "std": 0.034953,
+    "min": 0.0001,
+    "max": 0.170112,
+    "count": 200
+  },
+  "training_performance": {
+    "mean": -1.146209,
+    "median": -0.947054,
+    "std": 1.432228,
+    "min": -7.687553,
+    "max": 1.377568,
+    "count": 125
+  },
+  "testing_performance": {
+    "mean": -0.167993,
+    "median": 0.346462,
+    "std": 1.26866,
+    "min": -4.251371,
+    "max": 1.121542,
+    "count": 22
+  },
+  "overfitting_analysis": {
+    "mean_train_test_gap_pct": 366.7,
+    "median_train_test_gap_pct": 47.17,
+    "correlation_train_test": 0.3258,
+    "severe_overfitting_count": 10,
+    "trials_with_both_metrics": 22
+  }
+}

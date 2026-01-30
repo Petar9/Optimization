@@ -1,0 +1,50 @@
+{
+  "experiment_info": {
+    "optimizer": "tpe",
+    "strategy": "TEMA",
+    "symbol": "BTC-USDT",
+    "timeframe": "1h",
+    "training_period": "2025-01-01 to 2025-06-30",
+    "testing_period": "2025-07-01 to 2025-09-30",
+    "total_trials": 1000,
+    "duration_minutes": 10.0,
+    "avg_trial_duration_sec": 0.6
+  },
+  "convergence": {
+    "best_sharpe": 0.398898,
+    "trial_reached_best": 714,
+    "trials_to_90pct": 158,
+    "best_trial_id": 18556
+  },
+  "fitness_scores": {
+    "mean": 0.179188,
+    "median": 0.208129,
+    "std": 0.117501,
+    "min": 0.0001,
+    "max": 0.398898,
+    "count": 1000
+  },
+  "training_performance": {
+    "mean": 0.423182,
+    "median": 0.644709,
+    "std": 0.812243,
+    "min": -3.654824,
+    "max": 1.693939,
+    "count": 500
+  },
+  "testing_performance": {
+    "mean": -2.827761,
+    "median": -2.785471,
+    "std": 0.454235,
+    "min": -4.247055,
+    "max": -1.613265,
+    "count": 379
+  },
+  "overfitting_analysis": {
+    "mean_train_test_gap_pct": 1182.76,
+    "median_train_test_gap_pct": 445.86,
+    "correlation_train_test": 0.226,
+    "severe_overfitting_count": 379,
+    "trials_with_both_metrics": 379
+  }
+}

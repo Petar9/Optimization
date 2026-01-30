@@ -1,0 +1,50 @@
+{
+  "experiment_info": {
+    "optimizer": "tpe",
+    "strategy": "Alpha_Confluence_v2",
+    "symbol": "BTC-USDT",
+    "timeframe": "1h",
+    "training_period": "2025-01-01 to 2025-06-30",
+    "testing_period": "2025-07-01 to 2025-09-30",
+    "total_trials": 1000,
+    "duration_minutes": 23.9,
+    "avg_trial_duration_sec": 1.43
+  },
+  "convergence": {
+    "best_sharpe": 0.51159,
+    "trial_reached_best": 136,
+    "trials_to_90pct": 132,
+    "best_trial_id": 19978
+  },
+  "fitness_scores": {
+    "mean": 0.225765,
+    "median": 0.217977,
+    "std": 0.185077,
+    "min": 0.0001,
+    "max": 0.51159,
+    "count": 1000
+  },
+  "training_performance": {
+    "mean": 1.148974,
+    "median": 1.107754,
+    "std": 1.298877,
+    "min": -1.863425,
+    "max": 3.603226,
+    "count": 500
+  },
+  "testing_performance": {
+    "mean": -0.876215,
+    "median": -0.722681,
+    "std": 0.593163,
+    "min": -4.068079,
+    "max": 0.823493,
+    "count": 356
+  },
+  "overfitting_analysis": {
+    "mean_train_test_gap_pct": 393.99,
+    "median_train_test_gap_pct": 135.37,
+    "correlation_train_test": 0.4639,
+    "severe_overfitting_count": 355,
+    "trials_with_both_metrics": 356
+  }
+}

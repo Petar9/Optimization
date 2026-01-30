@@ -1,0 +1,50 @@
+{
+  "experiment_info": {
+    "optimizer": "de",
+    "strategy": "TEMA",
+    "symbol": "ETH-USDT",
+    "timeframe": "1h",
+    "training_period": "2025-01-01 to 2025-06-30",
+    "testing_period": "2025-07-01 to 2025-09-30",
+    "total_trials": 500,
+    "duration_minutes": 0.0,
+    "avg_trial_duration_sec": 0.0
+  },
+  "convergence": {
+    "best_sharpe": 1.041798,
+    "trial_reached_best": 383,
+    "trials_to_90pct": 383,
+    "best_trial_id": 26125
+  },
+  "fitness_scores": {
+    "mean": 0.300155,
+    "median": 0.311054,
+    "std": 0.187583,
+    "min": 0.0001,
+    "max": 1.041798,
+    "count": 500
+  },
+  "training_performance": {
+    "mean": 1.127987,
+    "median": 1.2108,
+    "std": 1.094038,
+    "min": -2.494192,
+    "max": 5.229892,
+    "count": 500
+  },
+  "testing_performance": {
+    "mean": -1.609187,
+    "median": -1.510289,
+    "std": 1.270662,
+    "min": -5.950591,
+    "max": 1.726244,
+    "count": 426
+  },
+  "overfitting_analysis": {
+    "mean_train_test_gap_pct": 637.5,
+    "median_train_test_gap_pct": 220.6,
+    "correlation_train_test": -0.3616,
+    "severe_overfitting_count": 410,
+    "trials_with_both_metrics": 426
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "experiment_info": {
+    "optimizer": "random",
+    "strategy": "RSITrend200EMA",
+    "symbol": "ETH-USDT",
+    "timeframe": "1h",
+    "training_period": "2025-01-01 to 2025-06-30",
+    "testing_period": "2025-07-01 to 2025-09-30",
+    "total_trials": 300,
+    "duration_minutes": 0.0,
+    "avg_trial_duration_sec": 0.0
+  },
+  "convergence": {
+    "best_sharpe": 0.217896,
+    "trial_reached_best": 156,
+    "trials_to_90pct": 98,
+    "best_trial_id": 26398
+  },
+  "fitness_scores": {
+    "mean": 0.018498,
+    "median": 0.0001,
+    "std": 0.049484,
+    "min": 0.0001,
+    "max": 0.217896,
+    "count": 300
+  },
+  "training_performance": {
+    "mean": -0.595518,
+    "median": -0.725639,
+    "std": 1.075934,
+    "min": -3.073962,
+    "max": 1.896651,
+    "count": 141
+  },
+  "testing_performance": {
+    "mean": 0.291094,
+    "median": 0.40533,
+    "std": 0.984051,
+    "min": -2.237358,
+    "max": 1.732194,
+    "count": 42
+  },
+  "overfitting_analysis": {
+    "mean_train_test_gap_pct": -297.44,
+    "median_train_test_gap_pct": 32.85,
+    "correlation_train_test": -0.1646,
+    "severe_overfitting_count": 17,
+    "trials_with_both_metrics": 42
+  }
+}

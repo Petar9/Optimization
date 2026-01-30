@@ -1,0 +1,12 @@
+{
+  "best_sharpe": 0.3810055530240803,
+  "bootstrap_mean": 0.3657177756765766,
+  "bootstrap_std": 0.02123236488023546,
+  "bootstrap_median": 0.3810055530240803,
+  "ci_lower": 0.3217004816525033,
+  "ci_upper": 0.3810055530240803,
+  "ci_width": 0.05930507137157698,
+  "n_trials": 500,
+  "n_bootstrap": 1000,
+  "seed": 42
+}
